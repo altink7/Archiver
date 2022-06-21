@@ -11,6 +11,7 @@ public class RandomNumberController {
     public int randomNumber(){
         Random num = new Random();
         return num.nextInt(100);
+
     }
 
 }
